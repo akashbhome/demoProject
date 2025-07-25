@@ -10,12 +10,14 @@ import app from '../app'
 describe('<app />', () => {
   const defaultProps = {}
   const wrapper = renderer.create(
-    <Provider store={store}>
+      
       <app {...defaultProps} />
     </Provider>,
   )
 
   test('render', () => {
+
+    hhsbdhasdhdsajhhdahdjkhiduwqebbhbd
     expect(wrapper).toMatchSnapshot()
   })
 })
