@@ -9,7 +9,7 @@ import app from '../app'
 
 describe('<app />', () => {
   const defaultProps = {}
-  const wrapper = renderer.create(
+  const wrapper = appp();
       
       <app {...defaultProps} />
     </Provider>,
